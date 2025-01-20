@@ -11,7 +11,7 @@ public class GameTimer : MonoBehaviour
     private bool isRunning = true;
 
     void Start()
-    {
+    { 
         timeRemaining = countdown ? timerDuration : 0f;
         UpdateTimerText();
     }
